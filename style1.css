@@ -1,0 +1,101 @@
+body {
+    background-image: url("./imgs/project1bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    background-color: rgb(145, 104, 123, 0.5);
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+nav li{
+    margin: 0 10px;
+}
+
+nav a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #c988ab;
+    color: white;
+}
+
+nav .active {
+    background-color: rgb(228, 176, 206);
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.img-prof {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile h2 {
+    margin: 10px 0 5px;
+    color: black;
+}
+
+.content {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    color: black;
+    border: 2px solid rgba(77, 8, 34, 0.5);
+}
+
+.prof-content {
+    padding: 20px;
+    border-radius: 8px; 
+    border: 2px solid rgba(77, 8, 34, 0.5);
+}
+
+h2, h1 {
+    font-family: verdana;
+}
+
+p {
+    font-family: sans-serif;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 15px;
+}
